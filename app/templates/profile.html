@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main %} 
+    <div id = "mainDiv">
+			<div id = "userDetails">
+				<img id = "profileImage" src="{{ url_for('static', filename='userImage.jpg') }}">
+				
+				<div id = "usernameDiv">
+					<h2>Chanderpaul Martin</h2>
+					
+					<p><span id = "username"> @chanda13 </span> <br>
+					<span id = "location">Kingston, Jamaica</span> <br>
+					<span id = "dateJoined">Joined {{ currentDate }} </span></p>
+				</div>
+			</div>
+			
+			<div>
+				<p id = "description" class = "grayText">I am a smart and talented young man who loves <br> 
+				website design and development. Contact me if <br>
+				you'd like to work together on a new project</p>
+			</div>
+			
+			<div id = "followAndPostInfo">
+				
+				<span class = "boldText" id = "postNumber">7</span>
+				<span class = "boldText " id = "followingNumber">100</span> 
+				<span class = "boldText" id = "followersNumber">250</span> 
+				<br>
+				<span class = "grayText" id = "postText">Posts</span>
+				<span class = "grayText" id = "followingText">Following</span>
+				<span class = "grayText" id = "followersText">Followers</span>
+				
+				<div id = "buttonDiv">
+					<button id = "followButton"> Follow </button>
+				</div>
+			
+			</div>
+			
+		</div>
+{% endblock %}

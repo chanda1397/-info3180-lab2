@@ -1,0 +1,96 @@
+body {
+    padding-top: 5rem;
+}
+#mainDiv{
+				
+				width:500px;
+				height: 550px;
+				margin: 0 auto;
+				border-style:solid;
+				border-width: 1px;
+				border-radius:5px;
+				border-color: #dbd6d6;
+			
+			}
+			
+			#profileImage{
+				margin-left:150px;
+				border-radius:50%;
+				margin-top: 20px;
+				height: 180px;
+				width: 180px;
+			}
+			
+			#userDetails{
+				background-color: green;
+				
+			}
+			
+			#usernameDiv{
+				margin-left: 130px;
+				color: white;
+			}
+			
+			#username{
+				position: relative;
+				left: 60px;
+				top: -13px;
+			}
+			#location{
+				position: relative;
+				left: 40px;
+				top:-8px;
+			}
+			#dateJoined{
+				position: relative;
+				left: 28px;
+				top:-2px;
+			}
+			
+			.grayText{
+				color: #dbd6d6;
+			}
+			
+			#description{
+				position: relative;
+				left:50px;
+			}
+			
+			.boldText{
+				font-weight: bold;
+			}
+			
+			#followAndPostInfo{
+				margin-left: 130px;
+			}
+			
+			#followingNumber{
+				position: relative;
+				left: 40px;
+			}
+			
+			#followersNumber{
+				position: relative;
+				left: 90px;
+			}
+			#postText{
+				position: relative;
+				right: 15px;
+			}
+			#followersText{
+				position: relative;
+				left: 15px;
+			}
+			#buttonDiv{
+				margin-top: 30px;
+				margin-left: 10px;
+			}
+			#followButton{
+				border-radius: 10%;
+				width: 150px;
+				height: 35px;
+				color: white;
+				font-size: 15px;
+				background-color: #99cc00;
+				border: none;
+			}
